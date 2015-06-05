@@ -27,24 +27,24 @@
 		<property name="hibernate.c3p0.acquire_increment">2</property>
 		<property name="hibernate.c3p0.validate">true</property>		
 		<!-- 映射文件 -->
-		<mapping resource="com/lqg/model/user/Admin.hbm.xml"/>
-		<mapping resource="com/lqg/model/user/Parent.hbm.xml"/>
-		<mapping resource="com/lqg/model/user/Teacher.hbm.xml"/>
-		<mapping resource="com/lqg/model/user/Student.hbm.xml"/>
-		<mapping resource="com/lqg/model/user/Room.hbm.xml"/>
+		<mapping resource="com/lqg/model/Admin.hbm.xml"/>
+		<mapping resource="com/lqg/model/Parent.hbm.xml"/>
+		<mapping resource="com/lqg/model/Teacher.hbm.xml"/>
+		<mapping resource="com/lqg/model/Student.hbm.xml"/>
+		<mapping resource="com/lqg/model//Room.hbm.xml"/>
 				
-		<mapping resource="com/lqg/model/product/Book.hbm.xml"/>
-		<mapping resource="com/lqg/model/product/BookItem.hbm.xml"/>		
-		<mapping resource="com/lqg/model/product/Course.hbm.xml"/>		
-		<mapping resource="com/lqg/model/product/Video.hbm.xml"/>
-		<mapping resource="com/lqg/model/product/UploadFile.hbm.xml"/>
+		<mapping resource="com/lqg/model/Book.hbm.xml"/>
+		<mapping resource="com/lqg/model/BookItem.hbm.xml"/>		
+		<mapping resource="com/lqg/model/Course.hbm.xml"/>		
+		<mapping resource="com/lqg/model/Video.hbm.xml"/>
+		<mapping resource="com/lqg/model/UploadFile.hbm.xml"/>
 		
-		<mapping resource="com/lqg/model/profile/Answer.hbm.xml"/>
-		<mapping resource="com/lqg/model/profile/Collection.hbm.xml"/>
-		<mapping resource="com/lqg/model/profile/Focus.hbm.xml"/>
-		<mapping resource="com/lqg/model/profile/Question.hbm.xml"/>
-		<mapping resource="com/lqg/model/profile/Route.hbm.xml"/>
-		<mapping resource="com/lqg/model/profile/Comment.hbm.xml"/>
-		<mapping resource="com/lqg/model/profile/Thank.hbm.xml"/>
+		<mapping resource="com/lqg/model/Answer.hbm.xml"/>
+		<mapping resource="com/lqg/model/Collection.hbm.xml"/>
+		<mapping resource="com/lqg/model/Focus.hbm.xml"/>
+		<mapping resource="com/lqg/model/Question.hbm.xml"/>
+		<mapping resource="com/lqg/model/Route.hbm.xml"/>
+		<mapping resource="com/lqg/model/Comment.hbm.xml"/>
+		<mapping resource="com/lqg/model/Thank.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>

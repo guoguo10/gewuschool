@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
 import com.lqg.model.PageModel;
-import com.lqg.model.profile.Route;
+import com.lqg.model.Route;
 import com.opensymphony.xwork2.ModelDriven;
 /**
  * routeAction

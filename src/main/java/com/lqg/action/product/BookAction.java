@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
+import com.lqg.model.Book;
 import com.lqg.model.PageModel;
-import com.lqg.model.product.Book;
 import com.opensymphony.xwork2.ModelDriven;
 /**
  * 书本的action

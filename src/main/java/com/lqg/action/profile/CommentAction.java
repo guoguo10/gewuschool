@@ -8,11 +8,11 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
+import com.lqg.model.Comment;
 import com.lqg.model.PageModel;
-import com.lqg.model.profile.Comment;
-import com.lqg.model.user.Parent;
-import com.lqg.model.user.Student;
-import com.lqg.model.user.Teacher;
+import com.lqg.model.Parent;
+import com.lqg.model.Student;
+import com.lqg.model.Teacher;
 import com.lqg.util.StringUitl;
 import com.opensymphony.xwork2.ModelDriven;
 /**

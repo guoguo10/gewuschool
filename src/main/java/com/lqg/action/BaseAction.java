@@ -18,34 +18,48 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 
 
-import com.lqg.dao.product.BookDao;
-import com.lqg.dao.product.BookItemDao;
-import com.lqg.dao.product.CourseDao;
-import com.lqg.dao.profile.ThankDao;
-import com.lqg.dao.product.VideoDao;
-import com.lqg.dao.product.UploadFileDao;
-import com.lqg.dao.profile.CommentDao;
-import com.lqg.dao.profile.AnswerDao;
-import com.lqg.dao.profile.CollectionDao;
-import com.lqg.dao.profile.FocusDao;
-import com.lqg.dao.profile.QuestionDao;
-import com.lqg.dao.profile.RouteDao;
-import com.lqg.dao.user.AdminDao;
-import com.lqg.dao.user.ParentDao;
-import com.lqg.dao.user.RoomDao;
-import com.lqg.dao.user.StudentDao;
-import com.lqg.dao.user.TeacherDao;
-import com.lqg.model.user.Parent;
-import com.lqg.model.user.Teacher;
-import com.lqg.model.user.Student;
-import com.lqg.model.user.Admin;
-import com.lqg.model.product.Book;
-import com.lqg.model.product.BookItem;
-import com.lqg.model.profile.Comment;
-import com.lqg.model.product.Course;
-import com.lqg.model.profile.Thank;
-import com.lqg.model.product.UploadFile;
-import com.lqg.model.product.Video;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import com.lqg.dao.AdminDao;
+import com.lqg.dao.AnswerDao;
+import com.lqg.dao.BookDao;
+import com.lqg.dao.BookItemDao;
+import com.lqg.dao.CollectionDao;
+import com.lqg.dao.CommentDao;
+import com.lqg.dao.CourseDao;
+import com.lqg.dao.FocusDao;
+import com.lqg.dao.ParentDao;
+import com.lqg.dao.QuestionDao;
+import com.lqg.dao.RoomDao;
+import com.lqg.dao.RouteDao;
+import com.lqg.dao.StudentDao;
+import com.lqg.dao.TeacherDao;
+import com.lqg.dao.ThankDao;
+import com.lqg.dao.UploadFileDao;
+import com.lqg.dao.VideoDao;
+import com.lqg.model.Admin;
+import com.lqg.model.Parent;
+import com.lqg.model.Student;
+import com.lqg.model.Teacher;
 import com.opensymphony.xwork2.ActionSupport;
 /**
  * baseAction

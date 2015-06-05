@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
+import com.lqg.model.Collection;
 import com.lqg.model.PageModel;
-import com.lqg.model.profile.Collection;
 import com.opensymphony.xwork2.ModelDriven;
 /**
  * collectionAction

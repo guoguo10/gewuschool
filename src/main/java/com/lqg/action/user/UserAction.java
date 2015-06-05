@@ -16,10 +16,10 @@ import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
 import com.lqg.model.PageModel;
-import com.lqg.model.product.UploadFile;
-import com.lqg.model.user.Parent;
-import com.lqg.model.user.Student;
-import com.lqg.model.user.Teacher;
+import com.lqg.model.Parent;
+import com.lqg.model.Student;
+import com.lqg.model.Teacher;
+import com.lqg.model.UploadFile;
 import com.lqg.util.EmailUtil;
 import com.lqg.util.Md5s;
 import com.lqg.util.MessageInfo;

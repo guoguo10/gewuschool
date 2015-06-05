@@ -46,13 +46,14 @@
 			</props>	
 		</property>	
 	</bean>	
+		<!-- 自定义的发送邮件的类 -->
+	<bean id="emailUtil" class="com.lqg.util.EmailUtil"></bean>	 
 	<!--异步线程执行器
 	<bean id="taskExecutor" class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">	
 		<property name="corePoolSize" value="10"/>	
 		<property name="maxPoolSize" value="30"/>	
 	</bean>-->	
-	<!-- 自定义的发送邮件的类 -->
-	<bean id="emailUtil" class="com.lqg.util.EmailUtil"></bean>	 
+
 	<!-- MemcachedCache缓存 
     <bean id="MemcachedCache" class="com.lqg.memcache.MemCachedTool"></bean> -->
     <!-- aop切面

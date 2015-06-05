@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
-import com.lqg.model.user.Admin;
+import com.lqg.model.Admin;
 import com.opensymphony.xwork2.ModelDriven;
 /**
  * ÓÃ»§Action

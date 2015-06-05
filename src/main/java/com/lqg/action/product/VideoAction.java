@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
+import com.lqg.model.BookItem;
 import com.lqg.model.PageModel;
-import com.lqg.model.product.BookItem;
-import com.lqg.model.product.Video;
-import com.lqg.model.product.UploadFile;
+import com.lqg.model.UploadFile;
+import com.lqg.model.Video;
 import com.lqg.util.StringUitl;
 import com.opensymphony.xwork2.ModelDriven;
 /**

@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
-import com.lqg.model.user.Student;
+import com.lqg.model.Student;
 import com.lqg.util.AppException;
 import com.opensymphony.xwork2.ModelDriven;
 /**

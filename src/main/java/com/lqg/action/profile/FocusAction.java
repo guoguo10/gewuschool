@@ -6,8 +6,8 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
 import com.lqg.action.BaseAction;
+import com.lqg.model.Focus;
 import com.lqg.model.PageModel;
-import com.lqg.model.profile.Focus;
 import com.opensymphony.xwork2.ModelDriven;
 /**
  * focusAction

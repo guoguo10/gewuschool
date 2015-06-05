@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.lqg.memcache.MemCachedTool;
-import com.lqg.model.user.Admin;
+import com.lqg.model.Admin;
 
 @Aspect 
 public class AdminInterceptor {
